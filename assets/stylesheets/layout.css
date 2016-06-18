@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body {
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: rgb(195, 72, 91);*/
+    background-color: lightgrey;
+    background-image: url(../images/web.png);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.header {
+    height: 97px;
+    border-bottom: 3px solid #f0a44c;
+}
+
+.header-title {
+    font-size: 30px;
+    color: maroon;
+    /*color: #fafa42;*/
+    margin: 0 auto;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-family: 'cwTeXYen', sans-serif;
+    text-align: center;
+}
+
+.wrap {
+    padding: 10px;
+    height: 580px;
+}
+
+.left-container {
+    float: left;
+    height: 100%;
+    width: 580px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.select-block {
+    height: 60px;
+    padding: 10px;
+    border-radius: 4px;
+    background-image: url(../images/bg2.png);
+}
+
+.select-block label {
+    font-size: 20px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+option {
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.area-select {
+    background-color: #79ade6;
+    border: 0px;
+    border-radius: 4px;
+    width: 120px;
+    height: 30px;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.nursery-block {
+    height: 500px;
+    overflow: auto;
+}
+
+.nursery {
+    background-image: url(../images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    width: 164px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    color: #1d66a7;
+}
+
+.nursery td {
+    font-size: 15px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.nursery p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.nursery:hover {
+    color: #016eea;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    margin-top: 10px;
+}
+
+.img {
+    float: inherit;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.time {
+    color: maroon;
+    border-radius: 10px;
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: 15px;
+    
+}
+
+.right-container {
+    float: left;
+    height: 100%;
+    width: 580px;
+    margin-left: 20px;
+}
+
+#vmap {
+    height: 560px;
+    padding: 10px;
+}
+
+#map {
+    height: 100%;
+}
+
+.footer {
+    height: 40px;
+    color: maroon;
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
