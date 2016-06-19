@@ -2,15 +2,12 @@
 body {
     width: 1200px;
     margin: 0 auto;
-    /*background-color: rgb(195, 72, 91);*/
-    background-color: lightgrey;
-    background-image: url(../images/web.png);
-    background-repeat: no-repeat;
+    background-color: rgb(195, 72, 91);
+    font-family: 'cwTeXYen', sans-serif;
 }
 
 a {
     text-decoration: none;
-    font-family: 'cwTeXYen', sans-serif;
 }
 
 .header {
@@ -19,7 +16,7 @@ a {
 }
 
 .header-title {
-    font-size: 30px;
+    font-size: 35px;
     color: maroon;
     /*color: #fafa42;*/
     margin: 0 auto;
@@ -30,8 +27,8 @@ a {
     top: 20px;
     padding-top: 10px;
     border-radius: 10px;
-    font-family: 'cwTeXYen', sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 .wrap {
@@ -51,16 +48,10 @@ a {
     height: 60px;
     padding: 10px;
     border-radius: 4px;
-    background-image: url(../images/bg2.png);
 }
 
 .select-block label {
     font-size: 20px;
-    font-family: 'cwTeXYen', sans-serif;
-}
-
-option {
-    font-family: 'cwTeXYen', sans-serif;
 }
 
 .area-select {
@@ -79,8 +70,7 @@ option {
 }
 
 .nursery {
-    background-image: url(../images/bg3.png);
-    background-repeat: no-repeat;
+    background-color: #d3d377;
     background-size: cover;
     border-radius: 4px;
     width: 164px;
@@ -96,7 +86,6 @@ option {
 
 .nursery td {
     font-size: 15px;
-    font-family: 'cwTeXYen', sans-serif;
 }
 
 .nursery p {
@@ -107,9 +96,7 @@ option {
 
 .nursery:hover {
     color: #016eea;
-    background-image: url(../images/bg1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: chocolate;
 }
 
 table {
@@ -123,15 +110,12 @@ table {
 caption {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'cwTeXYen', sans-serif;
 }
 
 .time {
     color: maroon;
     border-radius: 10px;
-    font-family: 'cwTeXYen', sans-serif;
     font-size: 15px;
-    
 }
 
 .right-container {
@@ -153,11 +137,7 @@ caption {
 .footer {
     height: 40px;
     color: maroon;
-    font-family: 'cwTeXYen', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
-
-
-

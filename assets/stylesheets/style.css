@@ -1,0 +1,77 @@
+/* 共用 + 預設部分 */
+
+body {
+    padding: 3px;
+}
+
+span {
+    color: blue;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+/* media queries  部分 */
+
+@media screen and (min-width: 320px) {
+    span {
+        color: red;
+    }
+    body {
+        background-color: lightgreen;
+    }
+    .col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        width: 23.4%;
+    }
+    body {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .header {
+        width: 768px;
+    }
+    .wrap {
+        width: 788px;
+    }
+    .nursery-block {
+        width: 700px;
+        margin-left: 20px;
+    }
+    .nursery {
+        background-color: #d3d377;
+        background-size: cover;
+        border-radius: 4px;
+        width: 768px;
+        height: 424px;
+        margin-top: 5px;
+        margin-left: 1.5px;
+        margin-right: 1.5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+    table {
+        margin-top: 10px;
+    }
+    .img {
+        float: inherit;
+    }
+    caption {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .col {
+        width: 50%;
+    }
+}
